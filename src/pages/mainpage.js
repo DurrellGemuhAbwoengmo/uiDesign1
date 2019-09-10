@@ -36,12 +36,10 @@ const Mainpage = () => {
             <View style = {styles.mContainer}>
                     
                     <View>
-                    <ImageBackground
+                    <Image
                         source = {require('../images/3.jpg')}
                         style = {styles.backgroundImage}
-                    >
-
-                    </ImageBackground>
+                    />
                     </View>
                     <View style = {styles.calenda}>
                     <Text style = {styles.caltext1}>
@@ -55,9 +53,9 @@ const Mainpage = () => {
             <View style = {styles.lContainer}>
                 <View style = {styles.captionHead}>
                     <Text style = {styles.caption}>
-                        Clean Room after
-
+                        Clean Room after {" "}
                     </Text>
+                    
                     <Text style = {styles.captionTime}>
                         9:30am
                     </Text>
@@ -69,8 +67,8 @@ const Mainpage = () => {
                         or call the service.
                     </Text>
                     <View style = {styles.lastTwoItems}>
-                        <View style = {styles.nocleantext}>
-                            <Text style = {{textAlign: "center"}}>
+                        <View>
+                            <Text style = {styles.nocleantext}>
                                 No Clean Today
                             </Text>
                         </View>

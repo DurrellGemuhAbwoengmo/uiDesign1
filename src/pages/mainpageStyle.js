@@ -9,7 +9,7 @@ const styles = StyleSheet.create ({
 
     uContainer: {
         backgroundColor: '#ffffff',
-        flex: 1.5,
+        flex: 1,
         flexDirection: 'row',
         alignItems: 'center',          
     },
@@ -23,7 +23,7 @@ const styles = StyleSheet.create ({
     },
     mContainer:{
         backgroundColor: '#FFFFFF',
-        flex: 3,
+        flex: 2.5,
     },
     lContainer: {
         backgroundColor: '#FFFFFF',
@@ -61,14 +61,12 @@ const styles = StyleSheet.create ({
     },
     backgroundImage: {
             width: 300,
-            height: 300,
+            height: 270,
             position: 'absolute',
             top: 0,
             left: 60,
             width: 350,
-            height: 350,
-            borderTopLeftRadius: 20,
-            borderBottomLeftRadius: 20
+            borderRadius: 20
     },
     calenda: {
         position: 'absolute',
@@ -97,13 +95,19 @@ const styles = StyleSheet.create ({
             borderRadius: 5,
         },
     button: {
+        marginTop: 15,
         justifyContent: 'center',
         alignItems: 'center'
     },
+  
     nocleantext: {
-
+       fontWeight: 'bold',
+       color: '#3940A1',
+       textAlign: 'center',
+       marginTop: 10,
     },
     lastTwoItems: {
+       
         paddingBottom: 2,
         justifyContent: 'space-around'
     }
